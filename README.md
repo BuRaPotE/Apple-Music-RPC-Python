@@ -1,7 +1,7 @@
 # Apple-Music-RPC-Python
 
 <div align="center">
-  <img src=https://github.com/user-attachments/assets/c5aa0385-f875-4f49-8ce4-32510d36d95e>
+  <img src=https://github.com/user-attachments/assets/811958ff-b480-48e0-86c1-7c49ad606982>
 </div>
 
 <p align="center">
