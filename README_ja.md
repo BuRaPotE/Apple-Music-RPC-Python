@@ -33,7 +33,7 @@ Cloudflared のQuick Tunnel を利用してローカルのサムネイルファ�
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/apple-music-rpc.git
+    git clone https://github.com/BuRaPotE/Apple-Music-RPC-Python.git
     cd apple-music-rpc
     ```
 
