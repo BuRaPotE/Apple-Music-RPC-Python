@@ -1,3 +1,4 @@
+import hashlib
 import os
 import struct
 import string
@@ -66,14 +67,15 @@ class RPCClient:
             "args": {
                 "pid": os.getpid(),
                 "activity": {
-                    "state": album_name,
-                    "details": title + " - " + artist_name,
+                    "type": 2,
+                    "state": artist_name,
+                    "details": title,
                     "timestamps": {
                         "start": listened_at,
                         "end": end
                     },
                     "assets": {
-                        "large_image": image_url + "/" + "".join(random.choices(string.ascii_letters + string.digits, k=10)),
+                        "large_image": image_url + "/" + hashlib.md5((title + "-" + artist_name).encode()).hexdigest(),
                         "large_text": album_name,
                     }
                 }
